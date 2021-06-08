@@ -1,0 +1,51 @@
+.page {
+    max-width:1110px;
+    background-color: red;
+}
+
+.header {
+    background-image: url('../images/Header.png');
+    opacity: 0.64;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    margin-bottom: 11px;
+    font-size: 80px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 559px;
+    font-size: 60px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+/* Box start */
+
+.box {
+   display: flex;
+   justify-content: center; 
+   background-color: rgba(101, 163, 236, 0.86);s
+   padding-top: 70px;
+   padding-bottom: 66px;
+
+}
+.text {
+    font-weight: normal;
+    font-size: 30px;
+    max-width: 1110px;
+}
+
+/* Box end */
+
+
+* {
+    border: 1px solid black;
+}

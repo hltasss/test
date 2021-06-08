@@ -1,0 +1,18 @@
+{
+  "name": "cube-2021",
+  "version": "1.0.0",
+  "description": "IT-Cube Project for 2 week",
+  "main": "index.js",
+  "repository": "https://github.com/VitalyBibik/Cube-2021.git",
+  "author": "Vitaly Bibik <wital2010@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "deploy": "parcel build ./src/index.html && gh-pages -d dist"
+  }
+}

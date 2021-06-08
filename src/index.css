@@ -1,0 +1,171 @@
+body {
+   /*background-color: #3f51b5;*/
+   font-family: 'Bitter', sans-serif;
+}
+.page {
+    max-width:1110px;
+    background-color: red;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('vendor/images/Header.png'); /* Подобрать цвет градиента */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 81px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-size: 80px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 559px;
+    font-size: 60px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.subtitle_description {
+    padding: 0;
+}
+
+
+/* Box start */
+
+.box {
+   display: flex;
+   justify-content: center;
+   background-color:lightskyblue;
+   padding-top: 70px;
+   padding-bottom: 66px;
+
+}
+.text {
+    font-weight: 400;
+    font-size: 30px;
+    max-width: 1110px;
+}
+.text_description {
+    margin-top: 16px;
+    margin-bottom: 0;
+    max-width: 542px;
+}
+
+/* Box end */
+
+/* Description Start  */
+.description {
+    background: #BBD6D6;
+    padding-bottom: 124px;
+    padding-top: 32px;
+}
+
+.mainTable {
+    max-width:1110px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.table:nth-child(2){
+    margin-left: 24px;
+}
+.table:hover {
+    color:red;
+}
+
+/* Description End */
+
+.images {
+    background-color:lightskyblue;
+    padding-bottom: 107px;
+}
+.title_images {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 54px;
+    color:#000;
+    padding-bottom: 80px;
+}
+.photo {
+    height: auto;
+    max-width:100% ;
+}
+.boxImages {
+    max-width:1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(236px, 4fr)); /* Адаптивный вариант */
+    grid-row-gap: 27px;
+    padding-bottom:105px;
+}
+.card_size {
+    max-width: 20rem;
+    max-height: 505px;
+    overflow: hidden;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+.col_m {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 545px;
+    height: 88px;
+    border-radius: 15px;
+    background: #BBD6D6;
+    border:none;
+    font-size:40px;
+}
+
+.footer {
+    background: #29185B;
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 165px;
+}
+.footer__text {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.logo {
+    width: 201px;
+    height: 63px;
+
+}
+.finish:last-child {
+    position: relative;
+    top: 45px;
+    align-self: flex-end;
+}
+.test {
+    max-width: 100%;
+    max-height: 100%;
+}
+.card:hover {
+    border: blue;
+    border: 10px;
+}
+.card-body:hover {
+    color: blue;
+}
